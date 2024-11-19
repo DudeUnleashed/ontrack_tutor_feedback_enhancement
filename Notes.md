@@ -48,3 +48,14 @@ Maybe store some info
 Sort feedback files into folders for better sorting
 learning_outcomes becomes recursive.
 Go over josh's additions previously and see what needs to be changed, ect.
+
+# Week 4 Notes
+
+add an extra table that allows for many to many learning outcome links.
+learning outcome abbreviation becomes tags.
+
+abbreviation and order is removed from feedback template chips.
+a bunch of comments added to code to suggest the changes i need to make throughout the next week.
+reach out more to report progress and get suggestions.
+child chip id is removed from feedback group chips, can still find them using the parent chip id.
+template chip needs parent chip id, this will be in the base feedback_chip type.
