@@ -59,3 +59,12 @@ a bunch of comments added to code to suggest the changes i need to make througho
 reach out more to report progress and get suggestions.
 child chip id is removed from feedback group chips, can still find them using the parent chip id.
 template chip needs parent chip id, this will be in the base feedback_chip type.
+
+# Week 5 Notes
+learning outcome becomes learning outcome id, as it just stores the id for the linked outcome
+related entity can just get gotten from learning_outcome
+section isnt needed anymore as they can just make dummy learning outcomes for them
+adding various input limits to fields like chip text length, ect.
+
+analytics
+so chip use is tracked per tutor in its own table, so just a basic tutor id - > chip id table that increments whenever a chip is clicked. The sum of each chips usage is just simply the sum of each chip id usage.
