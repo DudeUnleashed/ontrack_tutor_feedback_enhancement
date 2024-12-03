@@ -68,3 +68,11 @@ adding various input limits to fields like chip text length, ect.
 
 analytics
 so chip use is tracked per tutor in its own table, so just a basic tutor id - > chip id table that increments whenever a chip is clicked. The sum of each chips usage is just simply the sum of each chip id usage.
+
+# Week 6 Notes
+change migration scripts to make sure existing data for learning outcomes is kept in the new fields, so name -> short description, description -> fo_description, abbreviation -> 'ULO' + ilo number, ilo number is removed
+old abbreviation data is dropped, and becomes 'ULO' + ilo_number and then ilo_number gets dropped
+
+to reset the migrations, bring back to 8.0.x and re populate and move forward
+
+Go forward with adding task_definition urls just as they are in the context, andrew mentions they probably should not be so linked to unit as they are right now
